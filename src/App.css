@@ -1,0 +1,68 @@
+.App {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #FCEEC8;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.search-container {
+  margin: 1rem 0;
+}
+
+.search-container input {
+  padding: 0.5rem;
+  width: 250px;
+  margin-right: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: #9EDEF9;
+  border-radius: 1rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card img {
+  max-width: 150px;
+  border-radius: 1rem;
+}
+
+.card h2 {
+  text-transform: uppercase;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.card p {
+  color: #555;
+  margin: 0.3rem 0;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
