@@ -1,14 +1,15 @@
 # Pokémon Search 🔎
 
-A React application that fetches Pokémon data from the public PokéAPI and lets users search and explore Pokémon information.
+A React application that uses the PokéAPI to fetch and explore Pokémon information with a simple search interface.
 
 ## ✨ Features
 
-- Loads the first 50 Pokémon from PokéAPI
+- Fetches the first 50 Pokémon
 - Live name search
 - Pokémon sprites
-- Height, weight, and abilities
-- Card-based presentation
+- Height and weight information
+- Abilities display
+- Responsive card-based interface
 
 ## 🛠️ Tech Stack
 
@@ -26,15 +27,18 @@ npm install
 npm start
 ```
 
-Open `http://localhost:3000` if it is not opened automatically.
+Open `http://localhost:3000` in your browser.
 
-## 📌 Future Improvements
+## 🔮 Future Improvements
 
-- Loading and API error states
-- Pagination and larger datasets
-- Type filters and sorting
-- Improved accessibility and responsive design
+- API loading and error states
+- Pagination
+- Pokémon type filters
+- Sorting and advanced search
+- Improved accessibility
 
 ## 👨‍💻 Author
 
-[Varshith Gorrepati](https://github.com/VARSHITHGORREPATI)
+**Varshith Gorrepati**
+
+[GitHub](https://github.com/VARSHITHGORREPATI) · [LinkedIn](https://www.linkedin.com/in/gorrepativarshith/)
